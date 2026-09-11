@@ -1,0 +1,17 @@
+baseURL = "https://xiezigunt.github.io/hermes_ts/"
+locale = "zh-cn"
+defaultContentLanguage = "zh"
+title = "hermes_ts"
+
+[params]
+  author = "xiezigunt"
+  description = "Hugo + GitHub Pages"
+
+[pagination]
+  pagerSize = 20
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    noClasses = false
